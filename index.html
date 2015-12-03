@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="App">
+<head>
+    <title>NGTextReplace - Douglas Lira</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script>
+    <!-- -->
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+</head>
+<body>
+    <div ng-controller="MainController">
+        <fieldset>
+            <legend>Contrato</legend>
+            <contrato ng-model="change" tpl="tpl"></contrato>
+        </fieldset>
+
+        <fieldset>
+            <legend>Parâmetros</legend>
+            <div ng-repeat="(key, value) in change">
+                <input ng-keyup="add(key, value)" ng-model="value">
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>
