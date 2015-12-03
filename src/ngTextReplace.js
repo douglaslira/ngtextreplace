@@ -1,14 +1,7 @@
 (function() {
     'use strict';
-
-    angular.module('App', []);
-
-})();
-
-(function() {
-    'use strict';
-
-    angular.module('App').directive('ngTextReplace', ngTextReplace);
+    angular.module('NyXJS', []);
+    angular.module('NyXJS').directive('ngTextReplace', ngTextReplace);
 
     ngTextReplace.$inject = [];
 

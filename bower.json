@@ -1,0 +1,26 @@
+{
+  "name": "ngtextreplace",
+  "homepage": "https://github.com/douglaslira/ngtextreplace",
+  "authors": [
+    "Douglas Lira <douglas.lira.web@gmail.com>"
+  ],
+  "description": "This directive was created to search and replace word in text",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "AngularJS",
+    "text",
+    "replace",
+    "component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

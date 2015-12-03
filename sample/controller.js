@@ -10,7 +10,8 @@
             nome: 'Igor',
             tecnologia: 'AngularJS'
         };
-        $scope.tpl = "Eu entendi que o %nome% queria algo desse tipo. Utilizando %tecnologia% como tecnologia. Essa %variavel% não está no objeto então não vai ser substituida.";
+        $scope.tpl = "Eu entendi que o %nome% queria algo desse tipo. Utilizando %tecnologia% como tecnologia." +
+            "Essa %variavel% não está no objeto então não vai ser substituida utilizando %tecnologia%";
 
         $scope.add = function(k,v){
             $scope.change[k] = v;
