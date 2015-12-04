@@ -1,6 +1,7 @@
 {
   "name": "ngtextreplace",
   "homepage": "https://github.com/douglaslira/ngtextreplace",
+  "version": "0.0.1",
   "authors": [
     "Douglas Lira <douglas.lira.web@gmail.com>"
   ],
