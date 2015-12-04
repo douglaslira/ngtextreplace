@@ -2,6 +2,9 @@
   "name": "ngtextreplace",
   "homepage": "https://github.com/douglaslira/ngtextreplace",
   "version": "0.0.1",
+  "main": [
+    "src/ngTextReplace.js"
+  ],
   "authors": [
     "Douglas Lira <douglas.lira.web@gmail.com>"
   ],
