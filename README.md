@@ -3,6 +3,10 @@ NGTextReplace By Douglas Lira
 
 This directive was created to search and replace word in text
 
+## How to install
+
+bower install ngTextReplace
+
 ## How to use ng-text-replace - Basic
 
 * 1 - inject ngTextReplace in module
