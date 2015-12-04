@@ -29,7 +29,7 @@
                 var tmp = $scope.tpl;
                 angular.forEach($scope.ngModel, function (v, k) {
                     if ($scope.tpl.search('%' + k + '%') !== -1) {
-                        tmp = tmp.split('%' + k + '%').join(v);
+                        tmp = tmp.replace('%' + k + '%', v);
                     }
                 });
                 $scope.template = tmp;
