@@ -5,7 +5,9 @@ This directive was created to search and replace word in text
 
 ## How to use ng-text-replace - Basic
 
-* ng-text-replace ng-model="model" tpl="text_to_replace"
+* 1 - inject ngTextReplace in module
+* 2 - create element or add attribute text-replace in your html
+* 3 - add ng-model="model" and tpl="text_to_replace"
 
 ## Attention!!
 

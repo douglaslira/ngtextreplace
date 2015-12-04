@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../src/ngTextReplace.js"></script>
     <!-- -->
     <script src="app.js"></script>
     <script src="controller.js"></script>
@@ -13,8 +14,8 @@
 <body>
     <div ng-controller="MainController">
         <fieldset>
-            <legend>Contrato</legend>
-            <contrato ng-model="change" tpl="tpl"></contrato>
+            <legend>Texto</legend>
+            <text-replace ng-model="change" tpl="tpl"></text-replace>
         </fieldset>
 
         <fieldset>

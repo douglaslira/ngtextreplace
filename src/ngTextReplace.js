@@ -1,11 +1,13 @@
 (function() {
     'use strict';
-    angular.module('NyXJS', []);
-    angular.module('NyXJS').directive('ngTextReplace', ngTextReplace);
+    angular.module('ngTextReplace', []);
+})();
+(function(){
+    angular.module('ngTextReplace').directive('textReplace', textReplace);
 
-    ngTextReplace.$inject = [];
+    textReplace.$inject = [];
 
-    function ngTextReplace() {
+    function textReplace() {
 
         var tpl = [
             '<div>{{template}}</div>'

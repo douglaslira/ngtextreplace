@@ -1,5 +1,5 @@
 (function(){
 
-    angular.module('App', []);
+    angular.module('App', ['ngTextReplace']);
 
 })();
